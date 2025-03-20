@@ -435,12 +435,15 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 40px;
 }
 
 .product-card {
     border-radius: 10px;
     overflow: hidden;
+    max-width: 250px;
     background-color: #Fff;
     padding-bottom: 20px;
 }
