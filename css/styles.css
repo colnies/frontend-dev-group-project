@@ -494,7 +494,7 @@ body {
 .community-section {
     margin: 32px;
     border-radius: 16px;
-    padding: 60px;
+    padding: 30px 60px;
     background: linear-gradient(to bottom, #F0D1AD, #FAF9F6);
     display: flex;
     align-items: center;
