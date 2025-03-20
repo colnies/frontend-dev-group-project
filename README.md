@@ -16,7 +16,7 @@ This project is a fully responsive website for Louie the Corgi, a dog ambassador
 ## Setup & Installation
 
 1. Clone the repository or download the zip file
-git clone https://github.com/yourusername/louie-the-corgi.git
+git clone https://github.com/colnies/frontend-dev-group-project.git
 
 2. Navigate to the project directory
 cd louie-the-corgi
