@@ -46,6 +46,12 @@ body {
 
 /* Header Section */
 .header {
+    padding: 30px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-home {
     background: radial-gradient(circle, rgba(240,209,173,1) 0%, rgba(254,163,73,1) 100%);
     height: 100vh;
     min-height: 600px;
@@ -58,11 +64,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 400;
     color: #000;
     text-decoration: none;
@@ -138,7 +143,7 @@ body {
     position: relative;
     top: -50px;
     background-color: #003366;
-    width: 40%;
+    width: 35%;
     padding: 40px;
     border-radius: 0 16px 16px 0 ;
     display: flex;
@@ -147,17 +152,24 @@ body {
 }
 
 .about-image {
-        position: relative;
-        margin-right: 80px;
-        max-width: 100%;
-        height: auto;
+    position: absolute;
+    left: 0;
+    overflow: visible;
+    width: 130%;
+    height: auto;
+}
+
+.about-meet {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .about-content {
     background-color: #fff;
-    width: 60%;
-    padding: 60px;
-    margin-right: 24px;
+    padding: 30px 60px;
+    
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -171,18 +183,20 @@ body {
     color: #666;
     margin-bottom: 15px;
     font-weight: 400;
+    margin-left: 150px;
 }
 
 .about-title {
     font-size: 42px;
     font-weight: 400;
     margin-bottom: 20px;
+    margin-left: 150px;
 }
 
 .about-text {
     font-size: 16px;
     line-height: 1.6;
-    max-width: 600px;
+    max-width: 800px;
     font-family: Inter;
 }
 
@@ -547,6 +561,64 @@ body {
     height: auto;
 }
 
+/* Adopt Section */
+.adopt-section {
+    margin: 32px;
+    border-radius: 16px;
+    padding: 30px 60px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+.adopt-resources {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-family: Inter;
+    }
+}
+.adopt-content {
+    flex: 1;
+    background: linear-gradient(to bottom, #F0D1AD, #FAF9F6);
+    padding: 20px;
+    border-radius: 12px;
+    h2 {
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    ul {
+        
+        li {
+            
+            gap: 8px;
+            margin-left: 25px;
+            margin-bottom: 8px;
+            font-size: 16px;
+                font-family: Inter;
+            a {
+                color: #0164A9;
+                text-decoration: none;
+                font-family: Inter;
+            }
+        }
+    }
+}
+
+.adopt-img {
+    border-radius: 12px;
+}
+
 /* Footer */
 .footer {
     background-color: #FAF9F6;
@@ -639,7 +711,6 @@ body {
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
     .content-cards,
     .adoption-content,
     .community-section {
@@ -663,12 +734,43 @@ body {
     .about-section {
         flex-direction: column;
     }
-    
+    .about-image,
     .about-image-container,
     .about-content {
         width: 100%;
     }
-    
+    .about-image-container {
+        background-color: transparent;
+    }
+    .about-meet {
+        margin-top:100px;
+        text-align:center;
+    }
+    .about-label,
+    .about-title {
+        margin-left: 0;
+    }
+
+    .adopt-section {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 10px;
+        width: 100%;
+    }
+    .adopt-content,
+    .adopt-img {
+        width: 100%;
+    }
+    .adopt-resources {
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 16px;
+        }
+        
+    }
+
     .explore-section,
     .adoption-section,
     .merchandise-section,
