@@ -19,13 +19,19 @@ This project is a fully responsive website for Louie the Corgi, a dog ambassador
 git clone https://github.com/colnies/frontend-dev-group-project.git
 
 2. Navigate to the project directory
+```
 cd louie-the-corgi
+```
 
-3. Compile the TypeScript to JavaScript
-tsc script.ts
+4. Compile the TypeScript to JavaScript
+```
+tsc
+```
 
 If TypeScript compiler is not installed, you can install it via npm:
+```
 npm install -g typescript
+```
 
 4. Open `index.html` in your browser to view the website locally
 
