@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louie the Corgi - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+<body>
+    <header>
+        <h1>Louie the Corgi</h1>
+        <nav>
+            <ul>
+                <li><a href="behind-the-scenes.html">Behind the Scenes</a></li>
+                <li><a href="adopt.html">Adopt Don't Shop</a></li>
+                <li><a href="shop.html">Louie’s Store</a></li>
+            </ul>
+            <button class="donate-btn">Donate</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Shop our Merch</h2>
+        <div class="shop-container">
+            <div class="product-card">
+                <img src="images/tote-bag.png" alt="Tote Bag">
+                <h3>Tote Bag</h3>
+                <p>$40.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/t-shirt.png" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <p>$30.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/metal-cup.png" alt="Metal Cup">
+                <h3>Metal Cup</h3>
+                <p class="sale-price">$15.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/cap.png" alt="Cap">
+                <h3>Cap</h3>
+                <p>$15.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/pin.png" alt="Pin">
+                <h3>Pin</h3>
+                <p>$7.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/notebook.png" alt="Notebook">
+                <h3>Notebook</h3>
+                <p>$9.00</p>
+                <button>+</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/pillow-cover.png" alt="Pillow Cover">
+                <h3>Pillow Cover</h3>
+                <p>$13.00</p>
+                <button>+</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/louie-logo.png" alt="Louie the Corgi Logo">
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="behind-the-scenes.html">Behind the Scenes</a></li>
+                    <li><a href="adopt.html">Adopt Don't Shop</a></li>
+                    <li><a href="shop.html">Louie’s Store</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Help/FAQ</a></li>
+                    <li><a href="#">Shelters Near You</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <button class="donate-btn">Donate</button>
+    </footer>
+</body>
+</html>
